@@ -21,7 +21,9 @@
       </div>
       <nav>
         <ul>
-          <li><a href="/about">About</a></li>
+          <li><a href="{% url 'cat_index' %}">All Cats</a></li>
+          <li><a href="{% url 'cat_create' %}">Add a cat</a><li>
+          <li><a href="{% url 'about' %}">About</a></li>          
         </ul>
       </nav>
     </header>
